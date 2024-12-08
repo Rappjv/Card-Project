@@ -1,0 +1,16 @@
+.tanpa-bootstrap {
+    border: none;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 3em;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.tanpa-bootstrap:hover {
+    background-color: blue;
+    color: black;
+    transform: rotateY();
+    transition: all .3s
+}
